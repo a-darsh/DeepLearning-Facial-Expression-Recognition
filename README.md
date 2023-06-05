@@ -28,4 +28,4 @@ Multiple experiments were conducted to assess the performance of the different m
 
 The project offered valuable insights into the most effective techniques and configurations for Facial Expression Recognition. The results have shown significant improvement in the performance of FER systems, contributing valuable insights for future research in this domain. The project serves as a comprehensive guide for those looking to delve deeper into deep learning-based facial expression recognition.
 
-For more details about the project and its findings, please check the project files and results folder in this repository.
+For more details about the project and its findings, please check the code files and plots folder in this repository.
