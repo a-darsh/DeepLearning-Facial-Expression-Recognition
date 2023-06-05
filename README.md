@@ -6,6 +6,12 @@ This project aims at the recognition of facial expressions using deep learning t
 
 Facial expression recognition plays a significant role in human-computer interaction, robotics, and emotion analysis. Deep learning techniques, especially Convolutional Neural Networks (CNNs), have shown impressive results in computer vision tasks, including facial expression recognition. This project aims to create a deep learning model that can accurately recognize facial expressions from images. 
 
+## Dataset Used
+
+The model was trained on the FER2013 dataset, which is a public dataset for Facial Expression Recognition (FER). This dataset was first introduced in the ICML 2013 competition for facial expression recognition challenge. It consists of 35,887 grayscale images of faces, each of size 48x48 pixels. The faces have been automatically registered such that the face is more or less centered and occupies about the same amount of space in each image. The task is to categorize each face based on the emotion shown into one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral).
+
+You can download the dataset from the following link: [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
+
 ## Training the Model
 
 The project involves training different variations of VGG16, ResNet50, MobileNetV2, and Xception models to find the best performing model for facial expression recognition. The training process includes initial training with frozen layers, fine-tuning specific layers, and incorporating additional techniques such as data augmentation, batch normalization, and Gaussian noise. Data preprocessing using face detection has also been experimented with.
